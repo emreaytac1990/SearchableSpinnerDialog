@@ -26,9 +26,9 @@ allprojects {
 ```
 
 You must implement library as below.
-```
+```gradle
 dependencies{
-  ...gradle
+  ...
   implementation 'com.github.emreaytac1990:SearchableSpinnerDialog:1.0'
 }
 ```
