@@ -5,7 +5,7 @@
 ### Prerequisites
 
 You must add **maven { url 'https://jitpack.io' }** to settings.gradle as below.
-```
+```gradle
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
@@ -16,7 +16,7 @@ dependencyResolutionManagement {
 }
 ```
 Or you can add to build.gradle(app) as below.
-```
+```gradle
 allprojects {
   repositories {
     ...
@@ -28,13 +28,13 @@ allprojects {
 You must implement library as below.
 ```
 dependencies{
-  ...
+  ...gradle
   implementation 'com.github.emreaytac1990:SearchableSpinnerDialog:1.0'
 }
 ```
 
 ## Example
-```
+```kotlin
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
